@@ -1,0 +1,2 @@
+n = int(input('Digite o número a ser analizado: '))
+print('O número digitado foi {}. \n O seu dobro é {}. \n E o seu triplo é igual a {}. \n E o resultado equivalente de sua raiz quadrada é {:.2f}.'.format(n,(n * 2),(n * 3),(pow(n,(1/2)))))
